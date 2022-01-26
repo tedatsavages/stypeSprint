@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Stype_HF>
+  <Header_Stype_HF>
+    <Date>2016-05-02T20:25:30.7981566+02:00</Date>
+    <Port>6301</Port>
+    <Protocol>Stype HF</Protocol>
+    <Frame_rate>50 frames/s</Frame_rate>
+  </Header_Stype_HF>
+  <Data_sample>
+    <Index>1</Index>
+    <Commands>0</Commands>
+    <Package_No>55</Package_No>
+    <Time>PT0S</Time>
+    <Frame>24</Frame>
+    <Sec>52</Sec>
+    <Min>29</Min>
+    <Hours>11</Hours>
+    <X_Value>2,0456 m</X_Value>
+    <Y_Value>1,8239 m</Y_Value>
+    <Z_Value>-0,3116 m</Z_Value>
+    <Pan>-100,92 °</Pan>
+    <Tilt>-18,14 °</Tilt>
+    <Roll>0,00 °</Roll>
+    <FovX>90,77 °</FovX>
+    <Aspect_Ratio>1,7778 </Aspect_Ratio>
+    <Focus>0,4786 </Focus>
+    <Zoom>0,0000 </Zoom>
+    <k1>0,009757 mm^-2</k1>
+    <k2>-0,000310 mm^-4</k2>
+    <Center-X>-0,0030 mm</Center-X>
+    <Center-Y>0,0199 mm</Center-Y>
+    <PA_width>8,8000 mm</PA_width>
+  </Data_sample>
+  <Data_sample>
+    <Index>2</Index>
+    <Commands>0</Commands>
+    <Package_No>56</Package_No>
+    <Time>PT0.0199921S</Time>
+    <Frame>25</Frame>
+    <Sec>52</Sec>
+    <Min>29</Min>
+    <Hours>11</Hours>
+    <X_Value>2,0456 m</X_Value>
+    <Y_Value>1,8239 m</Y_Value>
+    <Z_Value>-0,3116 m</Z_Value>
+    <Pan>-100,92 °</Pan>
+    <Tilt>-18,14 °</Tilt>
+    <Roll>0,00 °</Roll>
+    <FovX>90,77 °</FovX>
+    <Aspect_Ratio>1,7778 </Aspect_Ratio>
+    <Focus>0,4786 </Focus>
+    <Zoom>0,0000 </Zoom>
+    <k1>0,009757 mm^-2</k1>
+    <k2>-0,000310 mm^-4</k2>
+    <Center-X>-0,0030 mm</Center-X>
+    <Center-Y>0,0199 mm</Center-Y>
+    <PA_width>8,8000 mm</PA_width>
+  </Data_sample>
+  <Data_sample>
+    <Index>3</Index>
+    <Commands>0</Commands>
+    <Package_No>57</Package_No>
+    <Time>PT0.0399992S</Time>
+    <Frame>25</Frame>
+    <Sec>52</Sec>
+    <Min>29</Min>
+    <Hours>11</Hours>
+    <X_Value>2,0456 m</X_Value>
+    <Y_Value>1,8239 m</Y_Value>
+    <Z_Value>-0,3116 m</Z_Value>
+    <Pan>-100,92 °</Pan>
+    <Tilt>-18,14 °</Tilt>
+    <Roll>0,00 °</Roll>
+    <FovX>90,77 °</FovX>
+    <Aspect_Ratio>1,7778 </Aspect_Ratio>
+    <Focus>0,4786 </Focus>
+    <Zoom>0,0000 </Zoom>
+    <k1>0,009757 mm^-2</k1>
+    <k2>-0,000310 mm^-4</k2>
+    <Center-X>-0,0030 mm</Center-X>
+    <Center-Y>0,0199 mm</Center-Y>
+    <PA_width>8,8000 mm</PA_width>
