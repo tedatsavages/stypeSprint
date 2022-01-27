@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<viz_xml_tracking title="xml_freed">
+     <interface  type="serial"
+                         baud ="38400"
+                         size="8"
+                         parity="odd"
+                         stop="1">
+        </interface>
+<!--opton for type "udp" "tcp" ?
+<!--option for parity "none", "odd", "even", "mark", "space" ?
+<!--option for stop 1, 2 ?
+<!--option for interface Type "udp" or "tcp" <ip>10.10.10.10</ip> <port>6000</port> ?
+<!--option for checksum calculation  1,2,3,4,... we'll use predefined functions> ?
+<!--option for value UINT32 INT32 UINT16 INT16 ?
+<!--option for order bigendian littleendian ?
+<!--option for calc + - * / and one value ?
+<!--do not use hex values, 0x80000 = 524288 -->
+     <checksum pkglen="29"
+                          calculation="1">
+     </checksum>
+     <extraction count="9">
+       <axis name="rotx" start="5" len="3" order="bigendian" value="INT32" calc="/ 32768"></axis>
+       <axis name="roty" start="2" len="3" order="bigendian" value="INT32" calc="/ 32768"></axis>
+       <axis name="rotz" start="8" len="3" order="bigendian" value="INT32" calc="/ 32768"></axis>
+       <axis name="posx" start="11" len="3" order="bigendian" value="INT32" calc="/ 640"></axis>
+       <axis name="posy" start="14" len="3" order="bigendian" value="INT32" calc="/ 640"></axis>
+       <axis name="posz" start="17" len="3" order="bigendian" value="INT32" calc="/ 640"></axis
+       <axis name="zoom"  start="20" len="3" order="bigendian" value="INT32" calc="- 524288"></axis>
+
+       <axis name="focus" start="23" len="3" order="bigendian" value="INT32" calc="- 524288"></axis>
+
+                    <!--example for not define axis ?
+        <axis name="iris" calc="!"></axis>
+     </extraction>
+</viz_xml_tracking>
